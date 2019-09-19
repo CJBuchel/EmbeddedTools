@@ -1,10 +1,10 @@
-package jaci.gradle.deploy.context
+package cj.gradle.deploy.context
 
-import jaci.gradle.deploy.CommandDeployResult
-import jaci.gradle.deploy.cache.CacheMethod
-import jaci.gradle.deploy.sessions.SessionController
-import jaci.gradle.deploy.target.location.DeployLocation
-import jaci.gradle.log.ETLogger
+import cj.gradle.deploy.CommandDeployResult
+import cj.gradle.deploy.cache.CacheMethod
+import cj.gradle.deploy.sessions.SessionController
+import cj.gradle.deploy.target.location.DeployLocation
+import cj.gradle.log.ETLogger
 import spock.lang.Specification
 import spock.lang.Subject
 

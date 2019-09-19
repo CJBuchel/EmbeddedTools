@@ -1,7 +1,7 @@
-package jaci.gradle.deploy.artifact
+package cj.gradle.deploy.artifact
 
-import jaci.gradle.deploy.context.DeployContext
-import jaci.gradle.log.ETLogger
+import cj.gradle.deploy.context.DeployContext
+import cj.gradle.log.ETLogger
 import spock.lang.Specification
 
 class ArtifactDeployWorkerTest extends Specification {

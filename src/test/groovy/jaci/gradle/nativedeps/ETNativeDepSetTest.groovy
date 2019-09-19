@@ -1,4 +1,4 @@
-package jaci.gradle.nativedeps
+package cj.gradle.nativedeps
 
 import org.gradle.nativeplatform.BuildType
 import org.gradle.nativeplatform.Flavor
@@ -17,7 +17,7 @@ class ETNativeDepSetTest extends Specification {
     ETNativeDepSet appliesSet(NativePlatform platform, Flavor flavor, BuildType type) {
         return new ETNativeDepSet(
                 project, "test",
-                null, null, null,
+                null, null,
                 null, null, null,
                 null,
                 platform, flavor, type

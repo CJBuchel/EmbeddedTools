@@ -1,7 +1,7 @@
-package jaci.gradle.deploy.cache
+package cj.gradle.deploy.cache
 
-import jaci.gradle.deploy.CommandDeployResult
-import jaci.gradle.deploy.context.DeployContext
+import cj.gradle.deploy.CommandDeployResult
+import cj.gradle.deploy.context.DeployContext
 
 class Md5SumCacheMethodTest extends AbstractCacheMethodTestSpec {
 

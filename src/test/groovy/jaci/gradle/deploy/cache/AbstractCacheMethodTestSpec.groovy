@@ -1,4 +1,4 @@
-package jaci.gradle.deploy.cache
+package cj.gradle.deploy.cache
 
 import spock.lang.Specification
 

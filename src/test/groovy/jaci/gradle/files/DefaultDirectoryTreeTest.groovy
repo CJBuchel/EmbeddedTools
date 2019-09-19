@@ -1,4 +1,4 @@
-package jaci.gradle.files
+package cj.gradle.files
 
 import org.gradle.api.file.DirectoryTree
 import org.gradle.api.file.FileTree

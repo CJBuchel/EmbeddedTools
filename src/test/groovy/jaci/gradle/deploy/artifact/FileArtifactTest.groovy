@@ -1,8 +1,8 @@
-package jaci.gradle.deploy.artifact
+package cj.gradle.deploy.artifact
 
-import jaci.gradle.Resolver
-import jaci.gradle.deploy.cache.CacheMethod
-import jaci.gradle.deploy.context.DeployContext
+import cj.gradle.Resolver
+import cj.gradle.deploy.cache.CacheMethod
+import cj.gradle.deploy.context.DeployContext
 
 class FileArtifactTest extends AbstractArtifactTestSpec {
 

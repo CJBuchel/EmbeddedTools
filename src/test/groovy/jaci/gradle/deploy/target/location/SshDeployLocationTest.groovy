@@ -1,7 +1,7 @@
-package jaci.gradle.deploy.target.location
+package cj.gradle.deploy.target.location
 
-import jaci.gradle.deploy.target.RemoteTarget
-import jaci.gradle.deploy.target.discovery.action.SshDiscoveryAction
+import cj.gradle.deploy.target.RemoteTarget
+import cj.gradle.deploy.target.discovery.action.SshDiscoveryAction
 import spock.lang.Specification
 import spock.lang.Subject
 

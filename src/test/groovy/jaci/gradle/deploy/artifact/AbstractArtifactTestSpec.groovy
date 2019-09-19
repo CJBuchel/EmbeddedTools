@@ -1,7 +1,7 @@
-package jaci.gradle.deploy.artifact
+package cj.gradle.deploy.artifact
 
 import groovy.transform.InheritConstructors
-import jaci.gradle.deploy.context.DeployContext
+import cj.gradle.deploy.context.DeployContext
 import org.gradle.testfixtures.ProjectBuilder
 import spock.lang.Specification
 import spock.lang.Subject

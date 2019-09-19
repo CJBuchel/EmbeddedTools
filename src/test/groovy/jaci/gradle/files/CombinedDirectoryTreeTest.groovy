@@ -1,4 +1,4 @@
-package jaci.gradle.files
+package cj.gradle.files
 
 import spock.lang.Specification
 import spock.lang.Subject

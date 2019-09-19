@@ -1,7 +1,7 @@
-package jaci.gradle.deploy.artifact
+package cj.gradle.deploy.artifact
 
-import jaci.gradle.deploy.CommandDeployResult
-import jaci.gradle.deploy.context.DeployContext
+import cj.gradle.deploy.CommandDeployResult
+import cj.gradle.deploy.context.DeployContext
 
 class CommandArtifactTest extends AbstractArtifactTestSpec {
 

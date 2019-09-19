@@ -1,13 +1,14 @@
-package jaci.gradle.deploy.target.discovery
+package cj.gradle.deploy.target.discovery
 
-import jaci.gradle.deploy.context.DeployContext
-import jaci.gradle.deploy.target.RemoteTarget
-import jaci.gradle.deploy.target.discovery.action.AbstractDiscoveryAction
-import jaci.gradle.deploy.target.discovery.action.DiscoveryAction
-import jaci.gradle.deploy.target.location.AbstractDeployLocation
-import jaci.gradle.deploy.target.location.DeployLocation
-import jaci.gradle.deploy.target.location.DeployLocationSet
+import cj.gradle.deploy.context.DeployContext
+import cj.gradle.deploy.target.RemoteTarget
+import cj.gradle.deploy.target.discovery.action.AbstractDiscoveryAction
+import cj.gradle.deploy.target.discovery.action.DiscoveryAction
+import cj.gradle.deploy.target.location.AbstractDeployLocation
+import cj.gradle.deploy.target.location.DeployLocation
+import cj.gradle.deploy.target.location.DeployLocationSet
 import org.gradle.api.internal.DefaultDomainObjectSet
+import org.gradle.testfixtures.ProjectBuilder
 import spock.lang.Specification
 import spock.lang.Subject
 
@@ -15,9 +16,10 @@ import java.util.function.Consumer
 
 class TargetDiscoveryWorkerTest extends Specification {
 
+    def project = ProjectBuilder.builder().build()
     def target = Mock(RemoteTarget) { RemoteTarget t ->
         t.getTimeout() >> 1
-        t.getLocations() >> new DeployLocationSet(t)
+        t.getLocations() >> project.objects.newInstance(DeployLocationSet, project, t)
     }
     def callback = Mock(Consumer)
     def context = Mock(DeployContext)

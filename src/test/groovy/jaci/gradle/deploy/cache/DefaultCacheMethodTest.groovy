@@ -1,6 +1,6 @@
-package jaci.gradle.deploy.cache
+package cj.gradle.deploy.cache
 
-import jaci.gradle.deploy.context.DeployContext
+import cj.gradle.deploy.context.DeployContext
 
 class DefaultCacheMethodTest extends AbstractCacheMethodTestSpec {
 

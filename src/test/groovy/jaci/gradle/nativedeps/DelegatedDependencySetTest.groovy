@@ -1,4 +1,4 @@
-package jaci.gradle.nativedeps
+package cj.gradle.nativedeps
 
 import org.gradle.api.file.FileCollection
 import org.gradle.nativeplatform.BuildType

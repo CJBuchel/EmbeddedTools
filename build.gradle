@@ -31,16 +31,16 @@ buildScan {
     termsOfServiceAgree = 'yes'
 }
 
-group = "jaci.gradle"
+group = "cj.gradle"
 archivesBaseName = "EmbeddedTools"
-version = "2018.12.18" // YYYY.MM.DD(revision)
+version = "2019.9.19" // YYYY.MM.DD(revision)
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 pluginBundle {
-    website = 'https://github.com/JacisNonsense/EmbeddedTools'
-    vcsUrl = 'https://github.com/JacisNonsense/EmbeddedTools'
+    website = 'https://github.com/CJBuchel/EmbeddedTools'
+    vcsUrl = 'https://github.com/CJBuchel/EmbeddedTools'
     description = 'Additions to the model-based DSL for deploying Java and Native projects to remote targets'
     tags = ['remote', 'target', 'deploy', 'java', 'native']
 
@@ -70,14 +70,14 @@ pluginBundle {
 gradlePlugin {
     plugins {
         gradleRio {
-            id = 'jaci.gradle.EmbeddedTools'
+            id = 'cj.gradle.EmbeddedTools'
             displayName = 'EmbeddedTools'
-            implementationClass = 'jaci.gradle.EmbeddedTools'
+            implementationClass = 'cj.gradle.EmbeddedTools'
         }
     }
 }
 
 wrapper {
-    gradleVersion = '5.0'
+    gradleVersion = '5.4.1'
     distributionType = Wrapper.DistributionType.ALL
 }
